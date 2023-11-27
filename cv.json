@@ -1,0 +1,34 @@
+{
+    "cv":[
+    {
+        "header": "EDUCATION"
+    },
+    {
+        "title": "FULLSTACK DEVELOPER",
+        "place": "CHAS ACADEMY",
+        "time": "2023-2025",
+        "description": "I am currently studying to become a fullstack developer. I have a lot to learn, and I'm really looking forward to working life. Something I know will be fantastic thanks to my amazing teachers and students!"
+    },
+    {
+        "title": "ORGANIZATIONAL PSYCHOLOGY",
+        "place": "MITTUNIVERSITETET",
+        "time": "2019",
+        "description": "I studied individuals' work-related experiences, reactions and actions in relation to the content and organization of work and how to interact with groups and organizations. I also learned a lot about how to implement change in a positive way!"
+    },
+    {
+        "header": "EXPERIENCE"
+    },
+    {
+        "title": "CHIEF OPERATING OFFICER",
+        "place": "HAARDWORK TRANSPORT AB",
+        "time": "2021-2023",
+        "description": "I ran a transport company, doing everything from lifting pianos to making the website. I say yes to everything, like to focus on details but can also look up and see the big picture. I am convinced that a prosperous organization begins with the well-being of the staff, so they were always my main focus."
+    },
+    {
+        "title": "FALL PROTECTION ASSEMBLER",
+        "place": "SAFETYRESPECT",
+        "time": "2020-2021",
+        "description": "I installed fall protection at high alitudes. With rope, harness and helmet, I've been able to see the most beautiful views of Gothenburg. It's pretty surreal to work hanging in a harness 25 floors up!"
+    }
+]
+}

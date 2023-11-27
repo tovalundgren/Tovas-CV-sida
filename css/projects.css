@@ -1,0 +1,125 @@
+.project{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.project-header{
+    display: flex;
+    font-size: 1.5rem;
+    color: white;
+    margin: 1.5em 0 0 0;
+}
+
+.project-text{
+    display: flex;
+    width: 80%;
+    margin-top: 0.4em;
+    font-size: 1rem;
+    line-height: 1.7em;
+    color: white;
+}
+
+.playGameBtn{
+    padding: 0.8em;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color:rgb(230, 201, 176);
+    border-radius: 1em;
+    line-height: 2.5em;
+    margin-top: 1em;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0 0.4em 0;
+    height: 20em;
+    width: 80%;
+    color: white;
+    padding: 1em;
+}
+
+.header{
+    font-size: 1.5rem;
+    margin-bottom: 0.4em;
+    display: flex;
+    justify-content: center;
+}
+
+.scroll{
+    display: flex;
+    align-self: center;
+    background-color: rgb(230, 201, 176, 0.9);
+    padding: 0.8em;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    height: 70%;
+    width: 70%;
+}
+
+.card{
+    background-size: cover;
+    background-position: center;
+}
+.svalbard-card{
+    background-image: url(../images/svalbardskimarathon.JPG);
+}
+
+.thailand-card{
+    background-image: url(../images/teachinginthailand.jpeg);
+}
+
+.sweden-card{
+    background-image: url(../images/haardworktransport.jpg);
+}
+
+.chile-card{
+    background-image: url(../images/teacherinchile.JPG);
+}
+
+
+@media (min-width: 769px){
+   
+
+    .project-text{
+        max-width: 43em;
+    }
+
+    .cards{
+        max-width: 65em;
+    }
+
+    .project-header{
+        font-size: 2.5rem;
+    }
+    
+    .project-text{
+        font-size: 1.2rem;
+        line-height: 2em;
+    }
+    
+    .header{
+        font-size: 2.5rem;
+    }
+    
+    .scroll{
+        font-size: 1.2rem;
+        line-height: 2em;
+    }
+}

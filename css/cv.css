@@ -1,0 +1,109 @@
+.cv-div{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    max-width: 40em;
+}
+
+.cv-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 1.5em;
+}
+
+.cv-title, .cv-place, .cv-time {
+    font-size: 1rem;
+    color: white;
+    display: flex;
+}
+
+.cv-description{
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    line-height: 1.7rem;
+    margin-bottom: 1.5em;
+    margin-top: 0.7em;
+}
+
+/*.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    height:20em;
+    width: 80%;
+    color: white;
+    padding: 0.5em;
+    background-color: rgb(230, 201, 176, 0.4);
+}*/
+
+/*.scroll{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: rgb(230, 201, 176, 0.8);
+    padding: 0.8em;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    height: 70%;
+    width: 70%;
+    margin: 1em;
+}
+
+.to-projects{
+    padding: 0 0.8em;
+    margin-top: 1em;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(230, 201, 176);
+    border-radius: 1em;
+    line-height: 4em;
+}*/
+
+
+@media (min-width: 769px){
+
+    .education-header, .experience-header, .cv-header{
+        font-size: 2.5rem;
+    }
+
+    .cv-title, .cv-place, .cv-time{
+        font-size: 1.5rem;
+    }
+
+    .cv-description{
+        font-size: 1.2rem;
+        line-height: 2em;
+    }
+
+    /*.cards{
+        max-width: 65em;
+    }
+    
+    h3{
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .scroll, .cv-description{
+        font-size: 1.2rem;
+        line-height: 2em;
+    }*/
+
+}

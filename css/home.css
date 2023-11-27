@@ -1,0 +1,187 @@
+main{
+    min-height: 100%;
+}
+
+.presentation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile-picture{
+    display: flex;
+    width: 50%;
+    margin: 2em 0 2em 0;
+    border-radius: 50%;
+    filter: sepia(10%);
+}
+
+.introduction-header{
+    font-size: 1.5rem;
+    color: white;
+    margin: 0.4em 0;
+    padding: 0;
+}
+
+.introduction-text{
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.tell-me-more, .playGameBtn{
+    padding: 0.8em;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color:rgb(230, 201, 176);
+    border-radius: 1em;
+    line-height: 2.5em;
+    margin-bottom: 1em;
+}
+
+.project{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.project-header{
+    display: flex;
+    font-size: 1.5rem;
+    color: white;
+    margin: 2em 0 0 0;
+}
+
+.project-text{
+    font-size: 1rem;
+    margin: 1em;
+    line-height: 1.7em;
+    color: white;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 1em 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    margin: 1em 0 5.5em 0;
+}
+
+.card {
+    background-size: cover;
+    background-position: center;
+    height: 15em;
+    width: 11em;
+}
+
+.card-a{
+    display: flex;
+    font-size: 1rem;
+    padding: 1em;
+    width: 100%;
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+}
+
+.svalbard-card{
+    background-image: url(../images/svalbardskimarathon.JPG);
+}
+
+.thailand-card{
+    background-image: url(../images/teachinginthailand.jpeg);
+}
+
+.sweden-card{
+    background-image: url(../images/haardworktransport.jpg);
+}
+
+.chile-card{
+    background-image: url(../images/teacherinchile.JPG);
+}
+
+
+@media (min-width: 769px){
+
+    .presentation{
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .profile-picture{
+        width: 25%;
+        margin: 4em;
+    }
+    
+    .introduction-header, .project-header, .header{
+        font-size: 2.5rem;
+    }
+
+    .project-header{
+        margin-top: 1em;
+    }
+    
+    .introduction-text, .project-text{
+        font-size: 1.2rem;
+    }
+    
+    .tell-me-more{
+        padding: 1.2em;
+    }
+    
+    .project{
+        text-align: left;
+    }
+    
+    .project-text{
+        line-height: 2em;
+    }
+    
+    .cards{
+        gap: 2em;
+    }
+    
+    .card {
+        background-size: cover;
+        background-position: center;
+        height: 22em;
+        width: 16em;
+    }
+    
+    .card-a{
+        display: flex;
+        font-size: 1.2rem;
+        padding: 2em;
+        width: 100%;
+    }
+
+    .header{
+        margin-bottom: 4.5em;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
